@@ -13,6 +13,9 @@ class ContactsController < ApplicationController
       flash.now[:error] = 'Cannot send message. Please try again after sometime!'
       render :new
     end
+  end
 
+  def thanks
+    redirect_to root_path
   end
 end
