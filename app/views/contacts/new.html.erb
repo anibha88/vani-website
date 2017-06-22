@@ -47,6 +47,21 @@
         </div>
       </div>
 
+      <div class="form-group">
+        <div class="control-label col-md-2">
+          <%= f.label :type, 'Type of Course' %>
+        </div>
+        <div class="col-md-8">
+          
+          <%= f.radio_button :type, 'Regular Course', :checked => true %> 
+          <%= f.label :type, 'Regular Course', :value => 'Regular Course' %>
+          <%= f.radio_button :type, 'Crash Course' %>
+          <%= f.label :type, 'Crash Course', :value => 'Crash Course' %>
+          
+
+        </div>
+      </div>
+
 
       <div class="form-group">
         <div class="control-label col-md-2">
