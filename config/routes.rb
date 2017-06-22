@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get '/about', to: 'pages#about', as: 'about'
   
-  get '/mba', to: 'pages#mba', as: 'mba'
+  get '/bba', to: 'pages#bba', as: 'bba'
   get '/bcom', to: 'pages#bcom', as: 'bcom'
   get '/pu', to: 'pages#pu', as: 'pu'
 

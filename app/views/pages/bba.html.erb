@@ -1,0 +1,11 @@
+<h1 class="page-header">
+    BBA/BBM <small class="ttl">subjects</small>
+</h1>
+<div class="row">
+  <div class="col-lg-12">
+    <% @subjects = ['Management Process and Organisation Behaviour', 'Strategic Management', 'Business Research Methodology', 'International Business', 'Investment Management', 'Human Resource Management', 'Training and Development', 'Operational Research', 'Fundamentals of Accounting', 'Financial Management', 'Compensation Management'] %>
+    <%= render 'display_subjects', collection: @subjects %>
+  </div>
+</div>
+
+<%#= render 'shared/page_title', title: "Create a new recipe" %>

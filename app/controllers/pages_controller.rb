@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   def contact
   end
 
-  def mba
+  def bba
   end
 
   def bcom

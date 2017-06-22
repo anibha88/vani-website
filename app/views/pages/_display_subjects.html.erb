@@ -1,0 +1,14 @@
+
+    <div class="panel-group" id="accordion">
+      <% @subjects.each do |subject| %>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <%= subject.capitalize %>
+                </h4> 
+            </div>
+        </div>
+      <% end %>
+    </div>
+  
+<!-- Template taken from https://blackrockdigital.github.io/startbootstrap-modern-business/faq.html -->
